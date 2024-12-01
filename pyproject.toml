@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "advent-of-code-2024"
+version = "1.0.0"
+description = "My solutions to the tasks from Advent of Code 2024"
+authors = ["Rafał Kowalski <rafal.kowalski@rkowalski.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+black = "^24.10.0"
+pylint = "^3.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
